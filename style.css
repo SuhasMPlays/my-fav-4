@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background: lime;
+    background-repeat: no-repeat;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+h1 {
+    text-shadow: 2px 2px blue;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: blue;
+}
+
+A {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAA;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
